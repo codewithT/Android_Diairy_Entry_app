@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/calendar"
+        android:title="calendar"
+        android:icon="@drawable/ic_calender1"
+        app:showAsAction="ifRoom|collapseActionView"
+         />
+
+    <item
+        android:id="@+id/settings"
+        android:title="notification"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/alarm"
+        android:title="Alarm"
+        android:icon="@drawable/ic_alarm"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+
+
+</menu>
